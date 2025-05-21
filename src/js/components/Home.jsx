@@ -10,9 +10,8 @@ const Home = () => {
 		<>
 			<NavBarComponent />
 			<div className="container">
+				<HeaderComponent />
 				<div className="row row-cols-1 row-cols-lg-4 g-4 py-3">
-					<HeaderComponent/>
-					
 					<CardComponent />
 					<CardComponent />
 					<CardComponent />
